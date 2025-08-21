@@ -27,41 +27,35 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
 ### Machine Learning Pipeline Steps:
 
 1. Data Acquisition – Sourced from Kaggle
-
 2. Data Validation – Performed if required
-
-3.Data Preprocessing & Feature Engineering – Completed
-
-4.Model Development/Training – Completed
-
-5.Model Performance Evaluation – Completed
-
-6.Web Application Deployment – Completed
-
+3. Data Preprocessing & Feature Engineering – Completed
+4. Model Development/Training – Completed
+5. Model Performance Evaluation – Completed
+6. Web Application Deployment – Completed
 7. System Testing – Completed
 
 
 ## Dataset Details
 
-Dataset Name            : Chest X-Ray Images (Pneumonia)
-Number of Class         : 2
-Number/Size of Images   : Total  : 5856 (1.15 Gigabytes (GB))
-                          Training   : 5216 (1.07 Gigabyte (GB))
-                          Validation : 320  (42.8 Megabytes (MB))
-                          Testing    : 320  (35.4 Megabytes (MB))
-Model Parameters:
+* Dataset Name            : Chest X-Ray Images (Pneumonia)
+* Number of Class         : 2
+* Number/Size of Images   : Total  : 5856 (1.15 Gigabytes (GB))
+                            Training   : 5216 (1.07 Gigabyte (GB))
+                            Validation : 320  (42.8 Megabytes (MB))
+                            Testing    : 320  (35.4 Megabytes (MB))
+a. Model Parameters:
 
-Machine Learning Library: Keras
-Base Model              : RESNET50 and Custom Deep Convolutional Neural Network
-Optimizers              : Adam
-Loss Function           : categorical_crossentropy
+* Machine Learning Library: Keras
+* Base Model              : RESNET50 and Custom Deep Convolutional Neural Network
+* Optimizers              : Adam
+* Loss Function           : categorical_crossentropy
 
-For Custom Deep Convolutional Neural Network : 
-Training Parameters:
+b. For Custom Deep Convolutional Neural Network : 
+* Training Parameters:
 
-Batch Size              : 32
-steps_per_epoch         : len(train_generator)
-Number of Epochs        : 15
+* Batch Size              : 32
+* steps_per_epoch         : len(train_generator)
+* Number of Epochs        : 15
 
 ## 🖥️ Libraries Used
 
