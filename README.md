@@ -43,6 +43,7 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
                             * Training   : 5216 (1.07 Gigabyte (GB))
                             * Validation : 320  (42.8 Megabytes (MB))
                             * Testing    : 320  (35.4 Megabytes (MB))
+  
 a. Model Parameters:
 
 * Machine Learning Library: Keras
